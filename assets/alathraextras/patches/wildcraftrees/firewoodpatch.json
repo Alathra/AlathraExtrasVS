@@ -1,0 +1,33 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/ingredients/L",
+        "value": {
+            "type": "block",
+            "code": "game:log-placed-*-ud",
+            "allowedVariants": [
+                "willow",
+                "douglasfir",
+                "honeylocust",
+                "bearnut",
+                "blackpoplar",
+                "pyramidalpoplar",
+                "catalpa",
+                "mahogany",
+                "sal",
+                "spruce",
+                "sycamore",
+                "elm",
+                "beech",
+                "eucalyptus",
+                "cedar"
+            ]
+        },
+        "file": "wildcrafttrees:recipes/grid/firewood.json",
+        "dependsOn": [
+            {
+                "modid": "wildcrafttrees"
+            }
+        ]
+    }
+]

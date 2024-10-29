@@ -1,0 +1,26 @@
+[
+  {
+    "file": "game:itemtypes/bag/basket.json",
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": "4"
+  },
+  {
+    "file": "game:itemtypes/bag/hunterbackpack.json",
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": "5"
+  },
+  {
+    "file": "game:itemtypes/bag/linensack.json",
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": "6"
+  },
+  {
+    "file": "game:itemtypes/bag/backpack.json",
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": "8"
+  }
+]

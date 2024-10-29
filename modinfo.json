@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "modid": "alathraextras",
+    "name": "alathraextras",
+    "authors": [
+        "ShermansWorld",
+    ],
+    "description": "Patches for the Alathra server",
+    "version": "0.1.2",
+    "dependencies": {
+        "game": "1.19.8"
+    }
+}
