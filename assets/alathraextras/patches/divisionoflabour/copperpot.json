@@ -1,0 +1,13 @@
+[
+  {
+    "op": "replace",
+    "path": "/behaviours/1",
+    "value": {},
+    "file": "divisionoflabor:blocktypes/copper/coppercookingpot",
+    "dependsOn": [
+      {
+        "modid": "divisionoflabor"
+      }
+    ]
+  }
+]
