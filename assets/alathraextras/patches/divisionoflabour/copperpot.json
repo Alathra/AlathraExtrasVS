@@ -38,18 +38,5 @@
         "modid": "divisionoflabor"
       }
     ]
-  },
-  {
-    "op": "addmerge",
-    "path": "/-",
-    "value": {
-      "block-coppercookingpot-cooked": "Copper Cooking Pot with Meal"
-    },
-    "file": "divisionoflabor:lang/en",
-    "dependsOn": [
-      {
-        "modid": "divisionoflabor"
-      }
-    ]
   }
 ]
