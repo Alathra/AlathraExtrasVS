@@ -1,0 +1,12 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "code": "alchemist",
+      "tpye": "positive",
+      "attributes": {}
+    },
+    "file": "game:config/traits.json"
+  }
+]
