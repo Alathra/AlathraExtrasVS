@@ -1,0 +1,61 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxY",
+    "value": 0.85,
+    "file": "rustandrot:entities/land/rust/mimic.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 1,
+    "file": "rustandrot:entities/land/rust/mimic.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:metalbit-iron",
+        "quantity": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:metalbit-copper",
+        "quantity": {
+          "avg": 8,
+          "var": 0.25
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:metalbit-tin",
+        "quantity": {
+          "avg": 4,
+          "var": 0.25
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": {
+          "avg": 10,
+          "var": 0.25
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:metal-parts",
+        "quantity": {
+          "avg": 6,
+          "var": 0.5
+        }
+      }
+    ],
+    "file": "rustandrot:entities/land/rust/mimic.json"
+  }
+]

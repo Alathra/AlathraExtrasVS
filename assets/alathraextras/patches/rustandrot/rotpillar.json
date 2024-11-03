@@ -1,0 +1,14 @@
+[
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/maxY",
+		"value": 0.8,
+		"file": "rustandrot:entities/land/rotten/rotpillar.json"
+	},
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/maxLightLevel",
+		"value": 1,
+		"file": "rustandrot:entities/land/rotten/rotpillar.json"
+	}
+]

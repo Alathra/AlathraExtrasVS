@@ -1,0 +1,28 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxYByType",
+    "value": {
+      "*-normal": 0.8,
+      "*-deep": 0.4,
+      "*-blackguard": 0.2
+    },
+    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/minYByType",
+    "value": {
+      "*-normal": 0.4,
+      "*-deep": 0.2,
+      "*-blackguard": 0
+    },
+    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 1,
+    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+  }
+]
