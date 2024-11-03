@@ -4,7 +4,7 @@
     "path": "/client/behaviors/1",
     "value": {
       "code": "nametag",
-      "renderRange": 0
+      "renderRange": 50
     },
     "file": "game:entities/humanoid/player"
   },
@@ -13,7 +13,7 @@
     "path": "/server/behaviors/1",
     "value": {
       "code": "nametag",
-      "renderRange": 0
+      "renderRange": 50
     },
     "file": "game:entities/humanoid/player"
   }
