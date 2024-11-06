@@ -1,0 +1,100 @@
+[
+    {
+        "file": "game:blocktypes/clay/jug",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [
+            {
+            "name": "XLibConsumable"
+            }
+        ]
+    },
+    {
+        "file": "aculinaryartillery:blocktypes/cauldron",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ],
+        "op": "addmerge",
+        "path": "/behaviorsByType/*",
+        "value": [{
+          "name": "XLibConsumable"
+        }]
+    },
+    {
+        "file": "aculinaryartillery:blocktypes/cauldronmini",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ],
+        "op": "addmerge",
+        "path": "/behaviorsByType/*",
+        "value": [{
+          "name": "XLibConsumable"
+        }]
+    },
+
+
+    {
+        "file": "wildcraftfruit:itemtypes/liquid/alcohol/cider",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 0.1 }
+          }
+        ]
+    },
+    {
+        "file": "wildcraftfruit:itemtypes/liquid/alcohol/spirit",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 1.0 }
+          }
+        ]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/wildcraftfruit/wildpotentspirit",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 1.5 }
+          }
+        ]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/wildcraftfruit/wildpotentwine",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 0.5 }
+          }
+        ]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/wildcraftfruit/wildstrongspirit",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 1.25 }
+          }
+        ]
+    },
+    {
+        "file": "expandedfoods:itemtypes/liquid/wildcraftfruit/wildstrongwine",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [{
+          "name": "XLibConsumable", 
+          "properties": { "unlearnPoints": 0.25 }
+          }
+        ]
+    }
+]

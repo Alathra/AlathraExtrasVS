@@ -1,0 +1,8 @@
+[
+    {
+        "file": "coinage:itemtypes/resource/planchet",
+        "op": "replace",
+        "path": "/combustibleProps/smeltedStack/stackSize",
+        "value": 1
+    }
+]
