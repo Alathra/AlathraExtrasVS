@@ -27,5 +27,10 @@
     "path": "/server/spawnconditions/runtime/chance",
     "value": 0.03,
     "file": "rustandrot:entities/land/rust/roamer.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/1",
+    "file": "rustandrot:entities/land/rust/roamer.json"
   }
 ]
