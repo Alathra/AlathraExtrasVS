@@ -57,5 +57,11 @@
       }
     ],
     "file": "rustandrot:entities/land/rust/mimic.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.01,
+    "file": "rustandrot:entities/land/rust/mimic.json"
   }
 ]

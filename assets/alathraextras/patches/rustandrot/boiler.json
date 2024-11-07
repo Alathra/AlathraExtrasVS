@@ -11,4 +11,10 @@
     "value": 1,
     "file": "rustandrot:entities/land/rust/boiler2.json"
   }
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.0001,
+    "file": "rustandrot:entities/land/rust/boiler2.json"
+  }
 ]

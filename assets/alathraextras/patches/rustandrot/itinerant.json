@@ -16,5 +16,11 @@
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
     "file": "rustandrot:entities/land/rust/itinerant.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.005,
+    "file": "rustandrot:entities/land/rust/itinerant.json"
   }
 ]

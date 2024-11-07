@@ -21,5 +21,11 @@
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
     "file": "rustandrot:entities/land/rust/roamer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.03,
+    "file": "rustandrot:entities/land/rust/roamer.json"
   }
 ]

@@ -46,5 +46,11 @@
     "op": "remove",
     "path": "/server/spawnconditions/runtime/maxShrubs",
     "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.025,
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
   }
 ]

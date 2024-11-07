@@ -14,7 +14,7 @@
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/chance",
-    "value": 0.00005,
+    "value": 0.0001,
     "file": "rustandrot:entities/land/rotten/miasma.json"
   }
 ]

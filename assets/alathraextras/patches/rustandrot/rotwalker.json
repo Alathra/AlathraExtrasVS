@@ -24,5 +24,11 @@
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
     "file": "rustandrot:entities/land/rotten/rotwalker.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.02,
+    "file": "rustandrot:entities/land/rotten/rotwalker.json"
   }
 ]
