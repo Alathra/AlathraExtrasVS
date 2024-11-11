@@ -1,0 +1,13 @@
+[
+    {
+        "file": "wildcrafttree:itemtypes/bag/wattlebasket.json",
+        "dependsOn": [
+            {
+                "modid": "wildcrafttree"
+            }
+        ],
+        "op": "replace",
+        "path": "/attributes/backpack/quantitySlots",
+        "value": "4"
+    }
+]
