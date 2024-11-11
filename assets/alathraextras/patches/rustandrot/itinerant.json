@@ -3,24 +3,29 @@
     "op": "addmerge",
     "path": "/server/spawnconditions/runtime/maxY",
     "value": 0.5,
-    "file": "rustandrot:entities/land/rust/itinerant.json"
+    "file": "rustandrotalathra:entities/land/rust/itinerant.json"
   },
   {
     "op": "addmerge",
     "path": "/server/spawnconditions/runtime/minY",
     "value": 0,
-    "file": "rustandrot:entities/land/rust/itinerant.json"
+    "file": "rustandrotalathra:entities/land/rust/itinerant.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
-    "file": "rustandrot:entities/land/rust/itinerant.json"
+    "file": "rustandrotalathra:entities/land/rust/itinerant.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/chance",
     "value": 0.005,
-    "file": "rustandrot:entities/land/rust/itinerant.json"
+    "file": "rustandrotalathra:entities/land/rust/itinerant.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/4/decayedBlock",
+    "file": "rustandrotalathra:entities/land/rust/intinerant.json"
   }
 ]

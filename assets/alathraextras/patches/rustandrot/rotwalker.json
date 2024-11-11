@@ -7,7 +7,7 @@
       "*-deep": 0.4,
       "*-blackguard": 0.2
     },
-    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+    "file": "rustandrotalathra:entities/land/rotten/rotwalker.json"
   },
   {
     "op": "replace",
@@ -17,18 +17,23 @@
       "*-deep": 0.2,
       "*-blackguard": 0
     },
-    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+    "file": "rustandrotalathra:entities/land/rotten/rotwalker.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
-    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+    "file": "rustandrotalathra:entities/land/rotten/rotwalker.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/chance",
     "value": 0.02,
-    "file": "rustandrot:entities/land/rotten/rotwalker.json"
+    "file": "rustandrotalathra:entities/land/rotten/rotwalker.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/4/decayedBlock",
+    "file": "rustandrotalathra:entities/land/rotten/rotwalker.json"
   }
 ]

@@ -3,13 +3,13 @@
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxY",
     "value": 0.85,
-    "file": "rustandrot:entities/land/rust/mimic.json"
+    "file": "rustandrotalathra:entities/land/rust/mimic.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
-    "file": "rustandrot:entities/land/rust/mimic.json"
+    "file": "rustandrotalathra:entities/land/rust/mimic.json"
   },
   {
     "op": "replace",
@@ -56,12 +56,17 @@
         }
       }
     ],
-    "file": "rustandrot:entities/land/rust/mimic.json"
+    "file": "rustandrotalathra:entities/land/rust/mimic.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/chance",
     "value": 0.01,
-    "file": "rustandrot:entities/land/rust/mimic.json"
+    "file": "rustandrotalathra:entities/land/rust/mimic.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/4/decayedBlock",
+    "file": "rustandrotalathra:entities/land/rust/mimic.json"
   }
 ]

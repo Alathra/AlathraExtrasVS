@@ -3,18 +3,23 @@
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxY",
     "value": 0.1,
-    "file": "rustandrot:entities/land/rust/boiler2.json"
+    "file": "rustandrotalathra:entities/land/rust/boiler2.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/maxLightLevel",
     "value": 1,
-    "file": "rustandrot:entities/land/rust/boiler2.json"
+    "file": "rustandrotalathra:entities/land/rust/boiler2.json"
   },
   {
     "op": "replace",
     "path": "/server/spawnconditions/runtime/chance",
     "value": 0.0001,
-    "file": "rustandrot:entities/land/rust/boiler2.json"
+    "file": "rustandrotalathra:entities/land/rust/boiler2.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/4/decayedBlock",
+    "file": "rustandrotalathra:entities/land/rust/boiler2.json"
   }
 ]
