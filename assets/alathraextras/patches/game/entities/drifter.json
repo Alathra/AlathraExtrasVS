@@ -2,7 +2,7 @@
 	{
 		"op": "replace",
 		"path": "/server/spawnconditions/runtime/chance",
-		"value": 0.75,
+		"value": 0.075,
 		"file": "game:entities/land/drifter.json"
 	}
 ]
