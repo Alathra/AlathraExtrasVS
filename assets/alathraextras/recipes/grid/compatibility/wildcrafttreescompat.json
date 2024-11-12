@@ -1,0 +1,360 @@
+[
+    {
+		"ingredientPattern": "AWS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": { "type": "block", "code": "wildcrafttree:log-*"},
+
+			"S": { "type": "block", "code": "wildcrafttree:log-*"}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block", "code": "wildcrafttree:log-placed-*-ud",
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "wildcrafttree:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block", "code": "wildcrafttree:logsection-placed-*-ud",
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "wildcrafttree:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "PYP,YTY,PYP",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "wildcrafttree:plank-*"
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block", "code": "wildcrafttree:log-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-spoked-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_P_,PYP,_P_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "wildcrafttree:plank-*",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-solid-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "wildcrafttree:plank-*",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block",
+				"code": "wildcrafttree:log-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-solid-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SP",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "item",
+				"code": "wildcrafttree:plank-*"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:woodenpath-ns",
+			"quantity": 2
+		}
+	},
+
+
+
+
+
+	{
+		"ingredientPattern": "K_,WS",
+		"ingredients": {
+		  "K": {
+			"type": "item",
+			"code": "game:knife-*",
+			"isTool": true
+		  },
+		  "W": {
+			"type": "block",
+			"code": "wildcrafttree:log-*"
+		  },
+		  "S": {
+			"type": "item",
+			"code": "game:stick"
+		  }
+		},
+		"width": 2,
+		"height": 2,
+		"output": {
+		  "type": "item",
+		  "code": "alchemy:mortarpestle-wood",
+		  "quantity": 1
+		}
+	},
+
+
+
+
+
+	{
+		"ingredientPattern": "SCS,PGF,LIL",
+		"name": "coinpressfeeder",
+		"height": 3,
+		"width": 3,
+		"ingredients": {
+		  "P": {
+			"type": "item",
+			"code": "wildcrafttree:plank-*",
+			"quantity": 8
+		  },
+		  "C": {
+			"type": "item",
+			"code": "game:chutesection-copper"
+		  },
+		  "I": {
+			"type": "item",
+			"code": "game:ingot-iron"
+		  },
+		  "S": {
+			"type": "item",
+			"code": "game:ingot-steel"
+		  },
+		  "G": {
+			"type": "item",
+			"code": "game:gear-rusty",
+			"quantity": 2
+		  },
+		  "F": {
+			"type": "item",
+			"code": "game:fat",
+			"quantity": 2
+		  },
+		  "L": {
+			"type": "block",
+			"code": "wildcrafttree:log-*"
+		  }
+		},
+		"output": {
+		  "type": "block",
+		  "code": "coinage:pressautofeed-north"
+		}
+	},
+
+	
+
+
+	{
+		"ingredientPattern": "HS,CL,_B",
+		"ingredients": {
+			"H": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"isTool": true,
+			"toolDurabilityCost": 30
+			},
+			"S": {
+			"type": "block",
+			"code": "game:polishedrockslab-*"
+			},
+			"C": {
+			"type": "item",
+			"code": "game:chisel-*",
+			"isTool": true,
+			"toolDurabilityCost": 40
+			},
+			"L": {
+			"type": "block",
+			"code": "wildcrafttree:log-*"
+			},
+			"B": {
+			"type": "block",
+			"code": "game:rock-*"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "claywheel",
+			"quantity":  1
+		}
+	},
+
+
+
+
+
+	{
+		"name": "Crude sailboat",
+		"ingredientPattern": "_WS,RWS,_L_",
+		"ingredients": {
+		  "L": {
+			"type": "item",
+			"code": "game:boat-raft-*",
+			"name": "wood",
+			"quantity": 1
+		  },
+		  "R": {
+			"type": "item",
+			"code": "game:rope",
+			"quantity": 4
+		  },
+		  "S": {
+			"type": "block",
+			"code": "game:rushmat",
+			"quantity": 4
+		  },
+		  "W": {
+			"type": "block",
+			"code": "wildcrafttree:log-placed-*-ud",
+			"name": "wood",
+			"quantity": 2
+		  }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+		  "type": "item",
+		  "code": "sailboat:crudesailboat-{wood}"
+		}
+	}
+
+
+	
+	
+]

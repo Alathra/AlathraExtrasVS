@@ -2,18 +2,186 @@
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-dwarfpine-ripe/-",
         "value": {
           "name": "XSkillsBerryBush",
           "properties": {
             "xp": 0.33
           }
         }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-pistachio-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-marita-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-huckleberry-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-snowberry-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-spindle-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-pilo-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-mingimingi-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-juniper-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-beautyberry-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-kumquat-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-blackelder-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+
+
+
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/bottomberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-pilo-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/bottomberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-juniper-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/bottomberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-blackelder-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
     },
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/bottomberrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-ripe/-",
         "value": {
           "name": "XSkillsBerryBush",
           "properties": {
@@ -21,21 +189,13 @@
           }
         }
     },
-    {
-        "file": "wildcraftfruit:blocktypes/plant/berry/bottomtreebush",
-        "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
-        "value": {
-          "name": "XSkillsBerryBush",
-          "properties": {
-            "xp": 0.33
-          }
-        }
-    },
+
+
+
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-lingonberry-ripe/-",
         "value": {
             "name": "XSkillsBerryBush",
             "properties": {
@@ -44,31 +204,172 @@
         }
     },
     {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-coralbead-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-crowberry-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-crowseye-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-cloudberry-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-knyazberry-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-ripe/-",
+      "value": {
+          "name": "XSkillsBerryBush",
+          "properties": {
+          "xp": 0.33
+          }
+      }
+    },
+    
+    
+    
+    {
         "file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-deserthackberry-ripe/-",
         "value": {
         "name": "XSkillsBerryBush",
         "properties": {
             "xp": 0.33
         }
         }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-dogrose-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-sallowthorn-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
+    },
+
+
+
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/pricklyshortbush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-pricklyheath-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
     },
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/pricklyshortbush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-ripe/-",
         "value": {
         "name": "XSkillsBerryBush",
         "properties": {
             "xp": 0.33
         }
         }
+    },
+
+
+
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shortberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-ugni-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shortberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-munthari-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
     },
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/shortberrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-ripe/-",
         "value": {
         "name": "XSkillsBerryBush",
         "properties": {
@@ -76,10 +377,56 @@
         }
         }
     },
+
+
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-blacknightshade-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-oldmansaltbush-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-bitternightshade-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-husktomato-ripe/-",
+      "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    },
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-ripe/-",
         "value": {
           "name": "XSkillsBerryBush",
           "properties": {
@@ -87,10 +434,38 @@
           }
         }
     },
+
+
+
+    {
+      "file": "wildcraftfruit:blocktypes/plant/berry/topberrybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-kumquat-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
+    },
     {
         "file": "wildcraftfruit:blocktypes/plant/berry/topberrybush",
         "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
+        "path": "/behaviorsByType/*-ripe/-",
+        "value": {
+        "name": "XSkillsBerryBush",
+        "properties": {
+            "xp": 0.33
+        }
+        }
+    },
+
+
+
+    {
+        "file": "wildcraftfruit:blocktypes/plant/berry/toppricklybush",
+        "op": "addmerge",
+        "path": "/behaviorsByType/*-dogrose-ripe/-",
         "value": {
         "name": "XSkillsBerryBush",
         "properties": {
@@ -99,18 +474,19 @@
         }
     },
     {
-        "file": "wildcraftfruit:blocktypes/plant/berry/toppricklybush",
-        "op": "addmerge",
-        "path": "/behaviorsByType/*-ripe",
-        "value": {
-        "name": "XSkillsBerryBush",
-        "properties": {
-            "xp": 0.33
-        }
-        }
+      "file": "wildcraftfruit:blocktypes/plant/berry/toppricklybush",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*-ripe/-",
+      "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+          "xp": 0.33
+      }
+      }
     },
     
     
+
     {
         "file": "wildcraftherb:blocktypes/plant/amphibiousplant",
         "op": "addmerge",
@@ -227,7 +603,10 @@
             }
           }
         ]
-    }
+    },
+
+
+    
     {
       "file": "wildcrafttree:blocktypes/wax/wildbeehive-inlog",
       "op": "addmerge",
@@ -239,4 +618,6 @@
         }
       }
     }
+
+
 ]
