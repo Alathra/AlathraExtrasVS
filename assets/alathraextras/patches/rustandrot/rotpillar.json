@@ -20,6 +20,6 @@
 	{
 		"op": "remove",
 		"path": "/server/behaviors/4/decayedBlock",
-		"file": "rustandrotalathra:entities/land/rotten/pillar.json"
+		"file": "rustandrotalathra:entities/land/rotten/rotpillar.json"
 	}
 ]

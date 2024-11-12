@@ -1,0 +1,27 @@
+[
+  {
+    "op": "remove",
+    "path": "/prefixandcreature-drifternormal",
+    "file": "rustandrotalathra:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/prefixandcreature-drifterdeep",
+    "file": "rustandrotalathra:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/prefixandcreature-driftertainted",
+    "file": "rustandrotalathra:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/prefixandcreature-driftercorrupt",
+    "file": "rustandrotalathra:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/prefixandcreature-driftermare",
+    "file": "rustandrotalathra:lang/en.json"
+  }
+]
