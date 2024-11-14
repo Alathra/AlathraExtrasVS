@@ -1,0 +1,16 @@
+
+[
+    {
+        "side" : "Server",
+        "op": "add",
+        "file" : "game:entities/humanoid/trader-agriculture.json",
+        "path" : "/attributes/tradeProps/selling/list/0",
+        "value" : {
+            "code": "hideandfabric:seeds-jute",
+            "type": "item",
+            "stacksize": 4,
+            "stock": { "avg": 2, "var": 0.5 },
+            "price": { "avg": 4, "var": 1 }
+        }
+    }
+]
