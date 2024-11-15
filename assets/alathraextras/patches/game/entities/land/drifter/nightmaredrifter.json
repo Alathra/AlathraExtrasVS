@@ -1,0 +1,12 @@
+[
+    {
+        "file" : "game:entities/land/drifter",
+        "op" : "add",
+        "path" : "/server/behaviors/9/dropsByType/*-nightmare/-",
+        "value" : {
+            type: "item",
+            code: "alathraextras:drifterarm",
+            quantity: { avg: 0.001, var: 0 }
+        }
+    }
+]
