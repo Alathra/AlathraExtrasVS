@@ -4,7 +4,8 @@
     "name": "alathraextras",
     "authors": [
       "ShermansWorld",
-      "Oktopuss"
+      "Oktopuss",
+      "BinglePringle"
     ],
     "description": "Patches for the Alathra server",
     "version": "0.1.5",
