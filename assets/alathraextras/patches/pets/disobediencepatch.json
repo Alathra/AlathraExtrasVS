@@ -1,0 +1,32 @@
+[
+    {
+        "file" : "wolftaming:entities/land/dog-adult",
+        "op" : "replace",
+        "path" : "server/behaviors/1",
+        "value" : 0.01
+    },
+    {
+        "file" : "wolftaming:entities/land/dog-pup",
+        "op" : "replace",
+        "path" : "server/behaviors/1",
+        "value" : 0.01
+    },
+    {
+        "file" : "cats:entities/land/cat-female",
+        "op" : "replace",
+        "path" : "server/behaviors/1",
+        "value" : 0.01
+    },
+    {
+        "file" : "cats:entities/land/cat-male",
+        "op" : "replace",
+        "path" : "server/behaviors/1",
+        "value" : 0.01
+    },
+    {
+        "file" : "cats:entities/land/cat-kitten",
+        "op" : "replace",
+        "path" : "server/behaviors/1",
+        "value" : 0.01
+    }
+]
