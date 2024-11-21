@@ -3,6 +3,6 @@
         "file": "alchemy:recipes/barrel/potionteaportion",
         "op": "addmerge",
         "path" : "/sealHours",
-        "value" : 24
+        "value" : 1
     }
 ]
