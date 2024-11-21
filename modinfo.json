@@ -8,7 +8,7 @@
       "BinglePringle"
     ],
     "description": "Patches for the Alathra server",
-    "version": "0.1.5",
+    "version": "0.1.8",
     "dependencies": {
         "game": "1.19.8"
     }
