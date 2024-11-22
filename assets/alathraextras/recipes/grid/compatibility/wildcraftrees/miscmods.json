@@ -103,7 +103,7 @@
 		"height": 3,
 		"output": {
 			"type": "block",
-			"code": "claywheel",
+			"code": "claywheel:claywheel",
 			"quantity":  1
 		}
 	},
