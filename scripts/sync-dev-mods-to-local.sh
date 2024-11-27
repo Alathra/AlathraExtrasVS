@@ -2,10 +2,10 @@
 #set -x
 
 SOURCE_DIR="../../vs-server-config/servers/dev/Mods" # directory with mods from git repo
-CLIENT_DIR="$(readlink -f $APPDATA)/VintagestoryData/Mods" # directory with vintagestory mods
-SERVER_DIR="$(readlink -f $APPDATA)/Vintagestory/Mods" # directory with vintagestory mods
+CLIENT_DIR="$(readlink -f "$APPDATA")/VintagestoryData/Mods" # directory with vintagestory mods
+SERVER_DIR="$(readlink -f "$APPDATA")/Vintagestory/Mods" # directory with vintagestory mods
 
-echo $CLIENT_DIR
+echo "$CLIENT_DIR"
 
 # List mods that should not be touched
 EXCLUDED_FILES=(
@@ -38,8 +38,9 @@ function cp_files() {
 
     local exclude_file
     SAVEIFS=$IFS; IFS=$(echo -en "\n\b")
+    # shellcheck disable=SC2045
     for file in $(ls -1 "$SOURCE_DIR/"*zip); do
-        echo $file | grep -q -E "$EXCLUDED_REGEX" 
+        echo "$file" | grep -q -E "$EXCLUDED_REGEX" 
         exclude_file=$?
 
         if [[ $exclude_file -eq 0 ]]; then
@@ -47,7 +48,7 @@ function cp_files() {
             continue
         fi
 
-        echo copying $file
+        echo copying "$file"
         cp "$file" "$dest_dir"
     done
     IFS=$SAVEIFS
@@ -60,8 +61,9 @@ function rm_files() {
     local exclude_file
 
     SAVEIFS=$IFS; IFS=$(echo -en "\n\b")
+    # shellcheck disable=SC2045
     for file in $(ls -1 "$dest_dir/"*zip); do
-        echo $file | grep -q -E "$EXCLUDED_REGEX"
+        echo "$file" | grep -q -E "$EXCLUDED_REGEX"
         exclude_file=$?
 
         if [[ $exclude_file -eq 0 ]]; then
@@ -69,7 +71,7 @@ function rm_files() {
             continue
         fi
 
-        echo removing $file
+        echo removing "$file"
         rm "$file"
     done
     IFS=$SAVEIFS
