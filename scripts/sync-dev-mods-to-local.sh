@@ -38,7 +38,7 @@ function cp_files() {
 
     local exclude_file
     SAVEIFS=$IFS; IFS=$(echo -en "\n\b")
-    # shellcheck disable=SC2045
+    # shellcheck disable=SC2045 # consider this
     for file in $(ls -1 "$SOURCE_DIR/"*zip); do
         echo "$file" | grep -q -E "$EXCLUDED_REGEX" 
         exclude_file=$?
@@ -61,7 +61,7 @@ function rm_files() {
     local exclude_file
 
     SAVEIFS=$IFS; IFS=$(echo -en "\n\b")
-    # shellcheck disable=SC2045
+    # shellcheck disable=SC2045 # consider this
     for file in $(ls -1 "$dest_dir/"*zip); do
         echo "$file" | grep -q -E "$EXCLUDED_REGEX"
         exclude_file=$?
