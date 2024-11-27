@@ -604,9 +604,6 @@
           }
         ]
     },
-
-
-    
     {
       "file": "wildcrafttree:blocktypes/wax/wildbeehive-inlog",
       "op": "addmerge",
@@ -617,7 +614,20 @@
           "xp": 0.05
         }
       }
+    },
+    {
+      "file": "pipeleaf:blocktypes/plant/crop/pipeleaf",
+      "op": "add",
+      "path": "/behaviors/-",
+      "value": {
+        "name": "XSkillsCrop",
+        "properties": {
+          "xpByType": {
+            "*-8": 0.8,
+            "*-9": 1.0,
+            "*": 0.0
+          }
+        }
+      }
     }
-
-
 ]
