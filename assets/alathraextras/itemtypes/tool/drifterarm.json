@@ -25,7 +25,10 @@
                 translation: { x: 0.15, y: -0.05, z: 0.2 },
                 rotation: { x: 22, y: -163, z: 93 },
                 scale: 0.8
-            }
+            },
+		handbook:{
+			exclude: true
+		}
 	},
 	behaviors: [{ 
 		name: "GroundStorable",
