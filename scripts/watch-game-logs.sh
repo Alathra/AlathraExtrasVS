@@ -3,4 +3,4 @@
 LOGS_DIR="$APPDATA/VintagestoryData/Logs" # directory with vintagestory Logs
 
 cd "$LOGS_DIR"
-tail -f *
+tail -f ./*
