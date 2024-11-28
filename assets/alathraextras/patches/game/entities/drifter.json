@@ -2,7 +2,7 @@
 	{
 		"op": "replace",
 		"path": "/server/spawnconditions/runtime/chance",
-		"value": 0,
-		"file": "rustandrot:entities/land/rust/golem.json"
+		"value": 0.075,
+		"file": "game:entities/land/drifter.json"
 	}
 ]
