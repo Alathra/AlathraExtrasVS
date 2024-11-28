@@ -1,0 +1,56 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/spawnconditions/runtime/maxY",
+    "value": 0.8,
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/spawnconditions/runtime/minY",
+    "value": 0.4,
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 1,
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/minTemp",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/maxTemp",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/minRain",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/minForestOrShrubs",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/maxForest",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/spawnconditions/runtime/maxShrubs",
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.025,
+    "file": "rustandrot:entities/land/rotten/rotbeast.json"
+  }
+]

@@ -82,5 +82,12 @@
 		"path": "/1/requiresTrait",
 		"value": "alchemist",
 		"file": "alchemy:recipes/grid/ingredient/vitalitybase"
+	},
+	{
+		"op": "addmerge",
+		"path": "/requiresTrait",
+		"value": "alchemist",
+		"file": "alchemy:recipes/grid/ingredient/recallbase"
 	}
+
 ]
