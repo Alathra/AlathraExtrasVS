@@ -38,9 +38,9 @@ jobs:
           # Working directory before zipping
           directory: .
           # List of excluded files / directories
-          exclusions: .github,scripts
+          exclusions: '*.git* /*node_modules/* .editorconfig .github* scripts*'
           # List of excluded files / directories with recursive wildcards (only applies on Windows with `zip` type)
-          recursive_exclusions: .github,scripts
+          recursive_exclusions:  '*.git* /*node_modules/* .editorconfig .github* scripts*'
           # Tool to use for archiving
           type: zip
           # Provide any custom parameters to the zipping command
