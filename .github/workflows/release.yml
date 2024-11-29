@@ -12,6 +12,15 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
+      - name: Set short git commit SHA
+        id: vars
+        run: |
+          calculatedSha=$(git rev-parse --short ${{ github.sha }})
+          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
+      
+      - name: Confirm git commit SHA output
+        run: echo ${{ env.COMMIT_SHORT_SHA }}
+        
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Zip Release
@@ -22,7 +31,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           # Filename for archive
-          filename: alathraextras_${{ github.ref }}.zip
+          filename: alathraextras_${{ env.COMMIT_SHORT_SHA }}.zip
           # Base path for archive files
           path: .
           # Working directory before zipping
