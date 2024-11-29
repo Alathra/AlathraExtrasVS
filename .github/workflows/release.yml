@@ -12,6 +12,13 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Zip Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        # You may pin to the exact commit or the version.
+        
       - name: Set short git commit SHA
         id: vars
         run: |
@@ -21,12 +28,6 @@ jobs:
       - name: Confirm git commit SHA output
         run: echo ${{ env.COMMIT_SHORT_SHA }}
         
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Zip Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-        # You may pin to the exact commit or the version.
         # uses: TheDoctor0/zip-release@b57d897cb5d60cb78b51a507f63fa184cfe35554
         uses: TheDoctor0/zip-release@0.7.6
         with:
