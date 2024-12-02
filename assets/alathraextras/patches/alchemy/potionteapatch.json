@@ -1,8 +1,8 @@
 [
-    {
-        "file": "alchemy:recipes/barrel/potionteaportion",
-        "op": "addmerge",
-        "path" : "/sealHours",
-        "value" : 1
-    }
+  {
+    "file": "alchemy:recipes/barrel/potionteaportion",
+    "op": "addmerge",
+    "path": "/sealHours",
+    "value": 1
+  }
 ]

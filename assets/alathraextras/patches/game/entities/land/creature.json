@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:itemtypes/creature.json",
+    "op": "add",
+    "path": "/variantgroups/0/states-",
+    "value": "sheep-domestic-male"
+  },
+  {
+    "file": "game:itemtypes/creature.json",
+    "op": "add",
+    "path": "/variantgroups/0/states-",
+    "value": "sheep-domestic-female"
+  },
+  {
+    "file": "game:itemtypes/creature.json",
+    "op": "add",
+    "path": "/variantgroups/0/states-",
+    "value": "sheep-domestic-lamb"
+  }
+]

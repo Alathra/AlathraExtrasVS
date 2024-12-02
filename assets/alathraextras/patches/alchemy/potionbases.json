@@ -1,86 +1,86 @@
 [
-	{
-		"op": "add",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/archerbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/healingeffectbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hungerenhancebase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hungersupressbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hunterbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/looterbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/meleebase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/miningbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/poisonbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/predatorbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/regenbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/scentmaskbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/speedbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/vitalitybase"
-	}
+  {
+    "op": "add",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/archerbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/healingeffectbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/hungerenhancebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/hungersupressbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/hunterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/looterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/meleebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/miningbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/poisonbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/predatorbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/regenbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/scentmaskbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/speedbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "alchemist",
+    "file": "alchemy:recipes/grid/ingredient/vitalitybase"
+  }
 ]

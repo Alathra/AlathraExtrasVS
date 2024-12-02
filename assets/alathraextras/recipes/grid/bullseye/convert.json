@@ -1,151 +1,152 @@
 [
-    {
-        "ingredientPattern" : "B",
-        "recipeGroup" : 2,
-        "ingredients" : {
-            "B" : {"type": "item", "code" : "game:bow-*", "name" : "type"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'B',
-        "averageDurability" : false,
-        "name" : "Convert bow",
-        "output" : {"type": "item", "code" : "alathraextras:bow-{type}"}
+  {
+    "ingredientPattern": "B",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": { "type": "item", "code": "game:bow-*", "name": "type" }
     },
-    {
-        "ingredientPattern" : "B",
-        "recipeGroup" : 2,
-        "ingredients" : {
-            "B" : {"type": "item", "code" : "alathraextras:bow-*", "name" : "type"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'B',
-        "averageDurability" : false,
-        "name" : "Convert bow",
-        "output" : {"type": "item", "code" : "game:bow-{type}"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Convert bow",
+    "output": { "type": "item", "code": "alathraextras:bow-{type}" }
+  },
+  {
+    "ingredientPattern": "B",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": { "type": "item", "code": "alathraextras:bow-*", "name": "type" }
     },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Convert bow",
+    "output": { "type": "item", "code": "game:bow-{type}" }
+  },
 
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "alathraextras:sling" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert sling",
+    "output": { "type": "item", "code": "game:sling" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:sling" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert sling",
+    "output": { "type": "item", "code": "alathraextras:sling" }
+  },
 
-
-
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "alathraextras:sling"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert sling",
-        "output" : {"type": "item", "code" : "game:sling"}
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "alathraextras:spear-scrap-scrap" }
     },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "game:sling"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert sling",
-        "output" : {"type": "item", "code" : "alathraextras:sling"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "game:spear-scrap-scrap" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:spear-scrap-scrap" }
     },
-
-
-
-
-    
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "alathraextras:spear-scrap-scrap"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "game:spear-scrap-scrap"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "alathraextras:spear-scrap-scrap" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "alathraextras:spear-*-ruined",
+        "name": "type"
+      }
     },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "game:spear-scrap-scrap"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "alathraextras:spear-scrap-scrap"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "game:spear-{type}-ruined" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:spear-*-ruined", "name": "type" }
     },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "alathraextras:spear-*-ruined", "name" : "type"} 
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "game:spear-{type}-ruined"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "alathraextras:spear-{type}-ruined" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": { "type": "item", "code": "game:spear-*", "name": "material" }
     },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "game:spear-*-ruined", "name" : "type"} 
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "alathraextras:spear-{type}-ruined"}
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "alathraextras:spear-{material}" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "alathraextras:spear-*",
+        "name": "material"
+      }
     },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "game:spear-*", "name" : "material"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "alathraextras:spear-{material}"}
-    },
-    {
-        "ingredientPattern" : "S",
-        "recipeGroup" : 1,
-        "ingredients" : {
-            "S" : {"type": "item", "code" : "alathraextras:spear-*", "name" : "material"}
-        },
-        "width" : 1,
-        "height" : 1,
-        "shapeless" : true,
-        "copyAttributesFrom" : 'S',
-        "averageDurability" : false,
-        "name" : "Convert spear",
-        "output" : {"type": "item", "code" : "game:spear-{material}"}
-    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "S",
+    "averageDurability": false,
+    "name": "Convert spear",
+    "output": { "type": "item", "code": "game:spear-{material}" }
+  }
 ]

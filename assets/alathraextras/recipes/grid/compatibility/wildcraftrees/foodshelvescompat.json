@@ -1,139 +1,151 @@
 [
-    {
-        "enabled": false,
-        "ingredientPattern": "PPP,_S_",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
-          "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
-        },
-        "width": 3,
-        "height": 2,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:barshelf-normal-east" }
+  {
+    "enabled": false,
+    "ingredientPattern": "PPP,_S_",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
     },
-    {
-        "ingredientPattern": "PP,P_,P_",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
-        },
-        "width": 2,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:barshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "PP,P_,P_",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
     },
-    {
-        "ingredientPattern": "_P_,PSP,_P_",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*" },
-          "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:eggshelf-normal-east" }
+    "width": 2,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "_P_,PSP,_P_",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
     },
-    {
-        "ingredientPattern": "P,P,P",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
-        },
-        "width": 1,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:pieshelf-normal-east" }
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:eggshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "P,P,P",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
     },
-    {
-        "ingredientPattern": "P_P,_S_,P_P",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*" },
-          "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:seedshelf-normal-east" }
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:pieshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "P_P,_S_,P_P",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
     },
-    {
-        "enabled": false,
-        "ingredientPattern": "P_P,_S_",
-        "ingredients": {
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
-          "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
-        },
-        "width": 3,
-        "height": 2,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:sushishelf-normal-east" }
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:seedshelf-normal-east" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P_P,_S_",
+    "ingredients": {
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
     },
-    {
-        "ingredientPattern": "_T,_P",
-        "ingredients": {
-          "T": { "type": "block", "code": "game:table-*", "name": "type", "skipVariants": ["aged"] },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*" }
-        },
-        "width": 2,
-        "height": 2,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:tablewshelf-{type}-north" }
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:sushishelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "_T,_P",
+    "ingredients": {
+      "T": {
+        "type": "block",
+        "code": "game:table-*",
+        "name": "type",
+        "skipVariants": ["aged"]
+      },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*" }
     },
-    {
-        "ingredientPattern": "SPS,NP_,SPS",
-        "ingredients": {
-          "S": { "type": "item", "code": "game:stick", "quantity": 4 },
-          "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 4 }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:horizontalbarrelbig-normal" }
-    },
-    {
-        "ingredientPattern": "PSP,S_S,PSP",
-        "ingredients": {
-          "S": { "type": "item", "code": "game:stick" },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*" }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:barrelrack-normal-north" }
-    },
-    {
-        "ingredientPattern": "PSP,SNS,PSP",
-        "ingredients": {
-          "S": { "type": "item", "code": "game:stick", "quantity": 8 },
-          "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 8 }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:barrelrackbig-normal-north" }
-    },
-    {
-        "ingredientPattern": "___,S_S,_P_",
-        "ingredients": {
-          "S": { "type": "item", "code": "game:stick", "quantity": 4 },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:fruitbasket-normal" }
-    },
-    {
-        "ingredientPattern": "_O_,S_S,P_P",
-        "ingredients": {
-          "O": { "type": "item", "code": "game:stick" },
-          "S": { "type": "item", "code": "game:stick", "quantity": 4 },
-          "P": { "type": "item", "code": "wildcrafttree:plank-*" }
-        },
-        "width": 3,
-        "height": 3,
-        "recipeGroup": 1,
-        "output": { "type": "block", "code": "foodshelves:vegetablebasket-normal" }
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": {
+      "type": "block",
+      "code": "foodshelves:tablewshelf-{type}-north"
     }
-
-
+  },
+  {
+    "ingredientPattern": "SPS,NP_,SPS",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick", "quantity": 4 },
+      "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": {
+      "type": "block",
+      "code": "foodshelves:horizontalbarrelbig-normal"
+    }
+  },
+  {
+    "ingredientPattern": "PSP,S_S,PSP",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*" }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:barrelrack-normal-north" }
+  },
+  {
+    "ingredientPattern": "PSP,SNS,PSP",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick", "quantity": 8 },
+      "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 8 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": {
+      "type": "block",
+      "code": "foodshelves:barrelrackbig-normal-north"
+    }
+  },
+  {
+    "ingredientPattern": "___,S_S,_P_",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick", "quantity": 4 },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:fruitbasket-normal" }
+  },
+  {
+    "ingredientPattern": "_O_,S_S,P_P",
+    "ingredients": {
+      "O": { "type": "item", "code": "game:stick" },
+      "S": { "type": "item", "code": "game:stick", "quantity": 4 },
+      "P": { "type": "item", "code": "wildcrafttree:plank-*" }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "foodshelves:vegetablebasket-normal" }
+  }
 ]

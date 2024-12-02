@@ -2,9 +2,7 @@
   {
     "op": "addmerge",
     "path": "/5/value/traits",
-    "value": [
-      "alchemist"
-    ],
+    "value": ["alchemist"],
     "file": "game:patches/survival-config-characterclasses",
     "dependsOn": [
       {
