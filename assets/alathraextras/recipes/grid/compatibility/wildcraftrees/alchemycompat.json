@@ -1,0 +1,27 @@
+[
+  {
+    "ingredientPattern": "K_,WS",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "W": {
+        "type": "block",
+        "code": "wildcrafttree:log-*"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "alchemy:mortarpestle-wood",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "ingredientPattern": "AWS",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:axe-*",
+        "isTool": true
+      },
+      "W": { "type": "block", "code": "wildcrafttree:log-*" },
+
+      "S": { "type": "block", "code": "wildcrafttree:log-*" }
+    },
+    "width": 3,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "game:firewood",
+      "quantity": 12
+    }
+  },
+  {
+    "ingredientPattern": "ALL",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "L": {
+        "type": "block",
+        "code": "wildcrafttree:log-placed-*-ud",
+        "name": "wood"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "wildcrafttree:plank-{wood}",
+      "quantity": 32
+    }
+  },
+  {
+    "ingredientPattern": "ALL",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "L": {
+        "type": "block",
+        "code": "wildcrafttree:logsection-placed-*-ud",
+        "name": "wood"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "wildcrafttree:plank-{wood}",
+      "quantity": 32
+    }
+  },
+  {
+    "ingredientPattern": "PYP,YTY,PYP",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "wildcrafttree:plank-*"
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:paper-parchment"
+      },
+      "T": {
+        "type": "block",
+        "code": "game:torch-basic-lit-up"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "game:paperlantern-on",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "_PW,PYP,WP_",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:stick",
+        "quantity": 4
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:metalplate-molybdochalkos"
+      },
+      "W": {
+        "type": "block",
+        "code": "wildcrafttree:log-*"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "game:wagonwheels-spoked-longaxle-west",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_P_,PYP,_P_",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "wildcrafttree:plank-*",
+        "quantity": 4
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:metalplate-molybdochalkos"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "game:wagonwheels-solid-west",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_PW,PYP,WP_",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "wildcrafttree:plank-*",
+        "quantity": 4
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:metalplate-molybdochalkos"
+      },
+      "W": {
+        "type": "block",
+        "code": "wildcrafttree:log-*"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "game:wagonwheels-solid-longaxle-west",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "SP",
+    "requiresTrait": "carpenter",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "code": "wildcrafttree:plank-*"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "game:woodenpath-ns",
+      "quantity": 2
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "file": "hideandfabric:itemtypes/bag/sack",
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": 6
+  }
+]

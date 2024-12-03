@@ -1,0 +1,38 @@
+[
+  {
+    "ingredientPattern": "HS,CL,_B",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      },
+      "S": {
+        "type": "block",
+        "code": "game:polishedrockslab-*"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 40
+      },
+      "L": {
+        "type": "block",
+        "code": "wildcrafttree:log-*"
+      },
+      "B": {
+        "type": "block",
+        "code": "game:rock-*"
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "claywheel:claywheel",
+      "quantity": 1
+    }
+  }
+]

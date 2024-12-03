@@ -1,8 +1,8 @@
 [
-    {
-        "file" : "confession:blocktypes/stone/medium_arch3",
-        "op" : "replace",
-        "path" : "/behaviors/0/properties/drop",
-        "value" : { "type": "block", "code": "mediumarch3-{stone}-{type}-east" } 
-    }
+  {
+    "file": "confession:blocktypes/stone/medium_arch3",
+    "op": "replace",
+    "path": "/behaviors/0/properties/drop",
+    "value": { "type": "block", "code": "mediumarch3-{stone}-{type}-east" }
+  }
 ]

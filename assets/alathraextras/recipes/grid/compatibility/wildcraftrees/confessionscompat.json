@@ -1,0 +1,1965 @@
+[
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "confession:cobblebuildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ],
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch1-{stone}-cobblestone-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "confession:buildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ],
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch1-{stone}-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "CCC,CMC,CBC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "confession:buildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar", "quantity": 3 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch1-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MCM,CBC,CUC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "confession:buildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "U": { "type": "item", "code": "game:stick" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch1-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MCM,CBC,CUC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "U": { "type": "item", "code": "game:stick" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch2-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MCM,CBC,CUC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "U": { "type": "item", "code": "game:stick" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch3-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ],
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-{stone}-cobblestone-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-granite" },
+      "S": { "type": "item", "code": "game:stonebrick-granite", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-granite-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-claystone" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-claystone",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-claystone-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-limestone" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-limestone",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-limestone-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-andesite" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-andesite",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-andesite-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-basalt" },
+      "S": { "type": "item", "code": "game:stonebrick-basalt", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-basalt-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-bauxite" },
+      "S": { "type": "item", "code": "game:stonebrick-bauxite", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-bauxite-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-chalk" },
+      "S": { "type": "item", "code": "game:stonebrick-chalk", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-chalk-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-chert" },
+      "S": { "type": "item", "code": "game:stonebrick-chert", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-chert-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-conglomerate" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-conglomerate",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-conglomerate-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-peridotite" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-peridotite",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-peridotite-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-phyllite" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-phyllite",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-phyllite-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-sandstone" },
+      "S": {
+        "type": "item",
+        "code": "game:stonebrick-sandstone",
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-sandstone-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-shale" },
+      "S": { "type": "item", "code": "game:stonebrick-shale", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-shale-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": { "type": "block", "code": "game:stonebricks-slate" },
+      "S": { "type": "item", "code": "game:stonebrick-slate", "quantity": 2 },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-slate-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "MHM,SBS",
+    "ingredients": {
+      "H": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ],
+        "quantity": 2
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-{stone}-cobblestone-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch1-*-brick-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch1-{stone}-brick-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch1-*-cobblestone-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "greenmarble",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "kimberlite",
+          "peridotite",
+          "phyllite",
+          "redmarble",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite",
+          "whitemarble"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch1-{stone}-cobblestone-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch4-*-cobblestone-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "greenmarble",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "kimberlite",
+          "peridotite",
+          "phyllite",
+          "redmarble",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite",
+          "whitemarble"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch4-{stone}-cobblestone-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch4-*-brick-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "greenmarble",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "kimberlite",
+          "peridotite",
+          "phyllite",
+          "redmarble",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite",
+          "whitemarble"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch4-{stone}-brick-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch2-*-brick-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glassslab-*-down-free",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-{stone}-brick-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,BIB,BGB",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:smallarch2-*-cobblestone-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "greenmarble",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "kimberlite",
+          "peridotite",
+          "phyllite",
+          "redmarble",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite",
+          "whitemarble"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 1 },
+      "G": {
+        "type": "block",
+        "code": "game:glassslab-*-down-free",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch2-{stone}-cobblestone-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BAB,BII,BGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:mediumarch1-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch1-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BAB,BII,BGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:mediumarch2-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glassslab-*-down-free",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch2-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,BII,BGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:mediumarch3-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glassslab-*-down-free",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:mediumarch3-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,III,GGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:hugearch1-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "conglomerate",
+          "shale",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "slate",
+          "basalt",
+          "chalk",
+          "bauxite",
+          "chert"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 6 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch1-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,III,GGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:cobblehugearch1-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 6 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:cobblehugearch1-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,BII,BGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:cobblemediumarch1-*-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 2 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:cobblemediumarch1-{stone}-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CCC,CMC,CBC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "confession:cobblebuildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar", "quantity": 3 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:cobblehugearch1-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MCM,CBC,CUC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "confession:cobblebuildblock-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "U": { "type": "item", "code": "game:stick" },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:cobblemediumarch1-{stone}-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "CCC,CMC,CBC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar", "quantity": 3 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch2-{stone}-cobblestone-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CCC,CMC,CBC",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "M": { "type": "item", "code": "game:mortar", "quantity": 3 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch2-{stone}-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,III,GGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:hugearch2-*-brick-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 6 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch2-{stone}-brick-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BAB,III,GGG",
+    "ingredients": {
+      "A": {
+        "type": "block",
+        "code": "confession:hugearch2-*-cobblestone-noglass-east",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 6 },
+      "I": { "type": "item", "code": "game:solderbar-tin", "quantity": 2 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:hugearch2-{stone}-cobblestone-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "MCM,SBS,_H_",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "H": { "type": "item", "code": "game:stick" },
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ],
+        "quantity": 8
+      },
+      "C": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "redmarble",
+          "kimberlite",
+          "whitemarble",
+          "greenmarble",
+          "suevite"
+        ]
+      },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch4-{stone}-cobblestone-noglass-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "MCM,SBS,_H_",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*" },
+      "H": { "type": "item", "code": "game:stick" },
+      "S": {
+        "type": "item",
+        "code": "game:stone-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite"
+        ],
+        "quantity": 8
+      },
+      "C": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "stone",
+        "allowedVariants": [
+          "granite",
+          "claystone",
+          "limestone",
+          "andesite",
+          "basalt",
+          "bauxite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "peridotite",
+          "phyllite",
+          "sandstone",
+          "shale",
+          "slate",
+          "suevite"
+        ]
+      },
+      "M": { "type": "item", "code": "game:mortar" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:smallarch4-{stone}-brick-noglass-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,_W_,SSS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:shingle-burned-*",
+        "name": "color",
+        "allowedVariants": ["red", "blue", "brown", "fire"]
+      },
+      "W": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:expandedroofing-{color}clay-point-full-east-free",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "S__,W__,SSS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:shingle-burned-*",
+        "name": "color",
+        "allowedVariants": ["red", "blue", "brown", "fire"]
+      },
+      "W": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:expandedroofing-{color}clay-point-half-east-free",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "S__,WS_,SSS",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:shingle-burned-*",
+        "name": "color",
+        "allowedVariants": ["red", "blue", "brown", "fire"]
+      },
+      "W": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:expandedroofing-{color}clay-outercorner-point-east-free",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "BBB,BIB,BGB",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:metalbit-lead", "quantity": 5 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:window1top-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "B_B,BGB,BIB",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:metalbit-lead", "quantity": 5 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:window1middle-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BGB,BIB,BBB",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:metalbit-lead", "quantity": 5 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:window1bottom-{color}-east",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BGB,BIB,BBB",
+    "ingredients": {
+      "B": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "I": { "type": "item", "code": "game:metalbit-lead", "quantity": 5 },
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "green",
+          "plain",
+          "yellow",
+          "pink",
+          "violet",
+          "brown",
+          "smoky",
+          "quartz",
+          "vintage"
+        ],
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "confession:window1-{color}-east",
+      "quantity": 1
+    }
+  },
+
+  {
+    "ingredientPattern": "M_M,AMI,MCM",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:bowl-fired" },
+      "I": { "type": "item", "code": "game:inkandquill", "quantity": 1 },
+      "M": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 1 },
+      "A": { "type": "item", "code": "game:knife-*", "isTool": true }
+    },
+    "width": 3,
+    "height": 3,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:brineportion" },
+        "requiresLitres": 1
+      }
+    },
+    "output": { "type": "item", "code": "confession:holybook-sun" }
+  }
+]
