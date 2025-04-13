@@ -1,11 +1,13 @@
 {
-  "type": "content",
-  "modid": "alathraextras",
-  "name": "alathraextras",
-  "authors": ["ShermansWorld", "Oktopuss", "BinglePringle"],
-  "description": "Patches for the Alathra server",
-  "version": "0.1.9",
-  "dependencies": {
-    "game": "1.19.8"
-  }
+    "type": "content",
+    "modid": "alathraextras",
+    "name": "alathraextras",
+    "authors": [
+      "ShermansWorld"
+    ],
+    "description": "Patches for the Alathra server",
+    "version": "0.2.1",
+    "dependencies": {
+        "game": "1.20.7"
+    }
 }

@@ -6,7 +6,7 @@
     "file": "game:patches/survival-config-characterclasses",
     "dependsOn": [
       {
-        "modid": "divisionoflabor"
+        "modid": "theworkingclasses"
       },
       {
         "modid": "alchemy"

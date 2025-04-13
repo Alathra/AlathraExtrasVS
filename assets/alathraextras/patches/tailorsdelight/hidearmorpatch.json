@@ -1,8 +1,0 @@
-[
-  {
-    "file": "tailorsdelight:compatibility/recipes/hideandfabric/grid/td/hide_armor",
-    "op": "replace",
-    "path": "/0/ingredients/h/code",
-    "code": "hideandfabric:hide-huge-bear-*"
-  }
-]

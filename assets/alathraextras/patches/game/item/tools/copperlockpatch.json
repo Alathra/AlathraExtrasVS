@@ -1,14 +1,14 @@
 [
-  {
-    "file": "game:itemtypes/tool/padlock.json",
-    "op": "addmerge",
-    "path": "/variantgroups/0/states/-",
-    "value": "copper"
-  },
-  {
-    "file": "game:recipes/smithing/padlock.json",
-    "op": "addmerge",
-    "path": "/ingredient/allowedVariants/-",
-    "value": "copper"
-  }
+    {
+        "file": "game:itemtypes/tool/padlock.json",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states/-",
+        "value": "copper"
+    },
+    {
+        "file": "game:recipes/smithing/padlock.json",
+        "op": "addmerge",
+        "path": "/ingredient/allowedVariants/-",
+        "value": "copper"
+    }
 ]

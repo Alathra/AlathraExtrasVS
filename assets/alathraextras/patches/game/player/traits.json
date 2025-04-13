@@ -4,7 +4,7 @@
     "path": "/-",
     "value": {
       "code": "alchemist",
-      "tpye": "positive",
+      "type": "positive",
       "attributes": {}
     },
     "file": "game:config/traits.json"

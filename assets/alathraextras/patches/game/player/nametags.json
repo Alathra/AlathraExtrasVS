@@ -1,20 +1,14 @@
 [
   {
-    "op": "replace",
-    "path": "/client/behaviors/1",
-    "value": {
-      "code": "nametag",
-      "renderRange": 50
-    },
-    "file": "game:entities/humanoid/player"
+    "file": "game:entities/humanoid/player.json",
+    "op": "add",
+    "path": "/server/behaviors/1/renderRange",
+    "value": 50
   },
   {
-    "op": "replace",
-    "path": "/server/behaviors/1",
-    "value": {
-      "code": "nametag",
-      "renderRange": 50
-    },
-    "file": "game:entities/humanoid/player"
+    "file": "game:entities/humanoid/player.json",
+    "op": "add",
+    "path": "/server/behaviors/1/showtagonlywhentargeted",
+    "value": false
   }
 ]
