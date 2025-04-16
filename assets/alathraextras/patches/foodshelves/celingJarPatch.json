@@ -1,0 +1,8 @@
+[
+  {
+    "file": "foodshelves:blocktypes/glassware/ceilingjar.json",
+    "op": "addmerge",
+    "path": "/enabled",
+    "value": false
+  }
+]
