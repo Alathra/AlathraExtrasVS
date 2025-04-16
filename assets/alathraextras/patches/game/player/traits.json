@@ -1,12 +1,12 @@
 [
   {
+    "file": "armory:config/traits.json",
     "op": "addmerge",
-    "path": "/-",
+    "path": "/26",
     "value": {
       "code": "alchemist",
       "type": "positive",
       "attributes": {}
-    },
-    "file": "game:config/traits.json"
+    }
   }
 ]

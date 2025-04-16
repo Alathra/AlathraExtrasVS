@@ -1,0 +1,11 @@
+[
+  {
+    "file": "maltiezfirearms:itemtypes/ammunition/pellet",
+    "op": "replace",
+    "path": "/behaviors/0/properties/stats/DamageStatsByType",
+    "value": {
+      "*-lead": { "DamageType": "BluntAttack", "Damage": 40 },
+      "*-copper": { "DamageType": "BluntAttack", "Damage": 30 }
+    }
+  }
+]

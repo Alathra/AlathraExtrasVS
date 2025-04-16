@@ -1,0 +1,23 @@
+[
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { "type": "item", "code": "armory:part-sabre-steel" },
+      "P": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "quantity": 1,
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {
+      "type": "item",
+      "code": "armory:sabre-plain-steel",
+      "attributes": { "handleTexture": "game:block/leather/{color}" }
+    }
+  }
+]
