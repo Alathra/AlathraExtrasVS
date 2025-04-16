@@ -1,93 +1,266 @@
 [
-	{
-		"op": "add",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/archerbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/healingeffectbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hungerenhancebase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hungersupressbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/hunterbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/looterbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/meleebase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/miningbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/poisonbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/predatorbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/regenbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/scentmaskbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/speedbase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/1/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/vitalitybase"
-	},
-	{
-		"op": "addmerge",
-		"path": "/requiresTrait",
-		"value": "alchemist",
-		"file": "alchemy:recipes/grid/ingredient/recallbase"
-	}
-
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/archerbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/archerbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/healingeffectbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/healingeffectbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hungerenhancebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hungerenhancebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hungersupressbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hungersupressbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hunterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/hunterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/looterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/looterbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/meleebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/meleebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/miningbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/miningbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/poisonbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/poisonbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/predatorbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/predatorbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/regenbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/regenbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/scentmaskbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/scentmaskbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/speedbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/speedbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/vitalitybase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/vitalitybase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/recallbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/glowbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/glowbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/waterbreathebase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/nutritionbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/temporalbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/8/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  },
+  {
+    "op": "addmerge",
+    "path": "/9/requiresTrait",
+    "value": "philosopher",
+    "file": "alchemy:recipes/grid/ingredient/basicbase"
+  }
 ]
